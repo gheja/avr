@@ -31,7 +31,7 @@ See: [src/m25p16_write_test](src/m25p16_write_test)
 
 Tool to send larger amount of data in parts:
 
-See: [src/m25p16_write_test](src/m25p16_write_test)
+See: [src/m25p16_write_huge](src/m25p16_write_huge)
 
 Tool to cut data into parts and generate source for it:
 
