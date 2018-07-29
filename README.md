@@ -1,13 +1,15 @@
 # Some AVR-related libraries, tools and the like
 
-## SPI (Serial Peripheral Interface)
+## Libraries
 
-A basic library for entering master mode, selecting and deselecting slave, and transmitting data.
+### SPI (Serial Peripheral Interface)
+
+A basic library for entering master mode, selecting and deselecting slave, and transmit/receive data.
 
 See: [src/lib](src/lib)
 
 
-## Micron M25P16 Serial Flash Embedded Memory
+### Micron M25P16 Serial Flash Embedded Memory
 
 A library for handling the M25P16 flash memory on AVR supporting the following:
   * enable write mode
@@ -17,6 +19,23 @@ A library for handling the M25P16 flash memory on AVR supporting the following:
   * read data
 
 See: [src/lib](src/lib)
+
+
+## Tools and examples
+
+### Micron M25P16 data transfer
+
+Example:
+
+See: [src/m25p16_write_test](src/m25p16_write_test)
+
+Tool to send larger amount of data in parts:
+
+See: [src/m25p16_write_test](src/m25p16_write_test)
+
+Tool to cut data into parts and generate source for it:
+
+See: [src/m25p16_write_huge/generator](src/m25p16_write_huge/generator)
 
 
 ## license
