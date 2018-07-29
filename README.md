@@ -41,7 +41,7 @@ See: [src/m25p16_write_huge/generator](src/m25p16_write_huge/generator)
 ## license
 MIT License
 
-Copyright (c) 2015-2017 Gabor Heja
+Copyright (c) 2015-2018 Gabor Heja
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
